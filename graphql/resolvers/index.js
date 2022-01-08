@@ -6,7 +6,8 @@ const resolvers = {
         ...postsResolver.Query
     },
     Mutation: {
-        ...userResolvers.Mutation
+        ...userResolvers.Mutation,
+        ...postsResolver.Mutation
     }
 };
 
